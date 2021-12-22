@@ -1,0 +1,16 @@
+{
+    "type": "postgres",
+    "use_env_variable": "postgres://qshrmwdsgtjwse:0e91785c8f9aaad1be293f109d76a4137f9912da5c17a4ae9a09b342974d5dd1@ec2-54-225-203-79.compute-1.amazonaws.com:5432/dfesqbba6td083",
+    "host": "ec2-54-225-203-79.compute-1.amazonaws.com",
+    "port": 5432,
+    "username": "qshrmwdsgtjwse",
+    "password": "0e91785c8f9aaad1be293f109d76a4137f9912da5c17a4ae9a09b342974d5dd1",
+    "database": "dfesqbba6td083",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true,
+    "autoLoadEntities": true,
+    "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+    }
+}
